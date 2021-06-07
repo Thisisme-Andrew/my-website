@@ -24,14 +24,14 @@ export default function Home() {
           </div>
           <div className={styles.grid}>
             <a
-              // href="https://github.com/vercel/next.js/tree/master/examples"
+              href="https://github.com/Thisisme-Andrew/themes-application"
               className={styles.card}
             >
               <h2>Website Repo &rarr;</h2>
               <p>A Github repo that I uploaded for this website.</p>
             </a>
             <a
-              href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+              href="https://themes-application.herokuapp.com/resume"
               className={styles.card}
             >
               <h2>Resume &rarr;</h2>
