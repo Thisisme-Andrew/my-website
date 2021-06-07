@@ -24,7 +24,7 @@ const Projects = () => {
 
           <a href="https://play.google.com/store/apps/details?id=com.khebrah.khebrah" className={styles.card}>
             <h2>Khebrah Android App &rarr;</h2>
-            <p>It's the same app here but on the Google Play store.</p>
+            <p>A language learning app individually developed in the Google Play store.</p>
           </a>
 
           <a
@@ -33,7 +33,7 @@ const Projects = () => {
           >
             <h2>Shopify FE Project Repo &rarr;</h2>
             <p>
-              This is just the repo on github for the project that I made above.
+              This is just the repo on github for the project that I made for the internship above.
             </p>
           </a>
         </div>
