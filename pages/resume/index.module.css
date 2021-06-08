@@ -9,3 +9,10 @@
 .resumeImage {
   width: 55%;
 }
+
+@media (max-width: 600px) {
+  .resumeImage {
+    width: 80%;
+  }
+
+}

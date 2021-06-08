@@ -1,5 +1,6 @@
 .button {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     padding: 0.35em 1.2em;
     border: none;
     box-sizing: border-box;
@@ -11,9 +12,16 @@
     text-align: center;
     transition: all 0.2s;
   }
-  .button:hover {
-    color: #000000;
-    background-color: #bbb5a4;
-    cursor: pointer;
-    border-radius: 15%;
+
+.button:hover {
+  color: #000000;
+  background-color: #bbb5a4;
+  cursor: pointer;
+  border-radius: 15%;
+}
+
+@media (max-width: 600px) {
+  .button {
+    padding: 7px;
   }
+}
