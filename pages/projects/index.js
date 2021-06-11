@@ -9,7 +9,11 @@ const Projects = () => {
         </h1>
 
         <div className={styles.grid}>
-          <a href="https://apps.apple.com/mn/app/khebrah/id1559289752" className={styles.card}>
+          <a 
+            href="https://apps.apple.com/mn/app/khebrah/id1559289752" 
+            className={styles.card}
+            target="_blank"
+          >
             <h2>Khebrah iOS App &rarr;</h2>
             <p>A language learning app individually developed in the Apple App store.</p>
           </a>
@@ -17,12 +21,17 @@ const Projects = () => {
           <a
             href="https://the-shoppies-nominations.herokuapp.com/"
             className={styles.card}
+            target="_blank"
           >
             <h2>Shopify FE project &rarr;</h2>
             <p>An internship project for nominating movies. (This takes a long time to load)</p>
           </a>
 
-          <a href="https://play.google.com/store/apps/details?id=com.khebrah.khebrah" className={styles.card}>
+          <a 
+            href="https://play.google.com/store/apps/details?id=com.khebrah.khebrah" 
+            className={styles.card}
+            target="_blank"
+          >
             <h2>Khebrah Android App &rarr;</h2>
             <p>A language learning app individually developed in the Google Play store.</p>
           </a>
@@ -30,6 +39,7 @@ const Projects = () => {
           <a
             href="https://github.com/Thisisme-Andrew/the-shoppies-nominations"
             className={styles.card}
+            target="_blank"
           >
             <h2>Shopify FE Project Repo &rarr;</h2>
             <p>

@@ -26,6 +26,7 @@ export default function Home() {
             <a
               href="https://github.com/Thisisme-Andrew/themes-application"
               className={styles.card}
+              target="_blank"
             >
               <h2>Website Repo &rarr;</h2>
               <p>A Github repo that I uploaded for this website.</p>
