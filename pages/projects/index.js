@@ -24,7 +24,7 @@ const Projects = () => {
             target="_blank"
           >
             <h2>Shopify FE project &rarr;</h2>
-            <p>An internship project for nominating movies. (This takes a long time to load)</p>
+            <p>An internship project for nominating movies. (This may take a long time to load)</p>
           </a>
 
           <a 

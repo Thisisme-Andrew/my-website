@@ -13,11 +13,11 @@ const NavBar = () => {
       <Link href="/">
         <div className={styles.nameAndTitle}>
           <div className={styles.nameContainer}>
-              <img src='/company-icon/shopify-icon.png' className={styles.companyIcon}/>
+              {/* <img src='/company-icon/shopify-icon.png' className={styles.companyIcon}/> */}
               <div className={styles.name}>Andy Tang</div>
           </div>
           <div className={styles.divider}>/</div>
-          <div className={styles.title}>RETAIL SUPPORT</div>
+          <div className={styles.title}>SOFTWARE DEVELOPER</div>
         </div>
       </Link>
       <div className={styles.tiles}>{[homeTile, resumeTile, projectsTile]}</div>

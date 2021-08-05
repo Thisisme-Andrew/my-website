@@ -1,0 +1,28 @@
+.footer {
+  width: 100%;
+  height: 20vh;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.ContactMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.ContactMenu a {
+  font-weight: normal;
+  margin: 1.5vh;
+}

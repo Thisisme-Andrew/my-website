@@ -3,7 +3,7 @@ import styles from './index.module.css';
 const Resume = () => {
   return (
     <div className={styles.container}>
-      <img className={styles.resumeImage} src='https://cdn.shopify.com/s/files/1/0262/6653/3910/files/resume.jpg?v=1623086102'></img>
+      <iframe className={styles.resumeImage} src="https://docs.google.com/document/d/e/2PACX-1vSxqCD-SBhHXHngEd2GucuEkmu2zcXNqUaX9Ul-9s7Tp5oGrZL7VXi1bqe3jifGNDv5HCJ8v7ltu_So/pub?embedded=true"></iframe>
     </div>
   )
 }
