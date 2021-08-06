@@ -1,4 +1,5 @@
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css';
+import Router from 'next/router';
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
           </div>
           <div className={styles.grid}>
             <a
-              href="https://github.com/Thisisme-Andrew/themes-application"
+              href="https://github.com/Thisisme-Andrew/my-website"
               className={styles.card}
               target="_blank"
             >
@@ -32,8 +33,8 @@ export default function Home() {
               <p>A Github repo that I uploaded for this website.</p>
             </a>
             <a
-              href="https://themes-application.herokuapp.com/resume"
               className={styles.card}
+              onClick={() => Router.push('/resume')}
             >
               <h2>Resume &rarr;</h2>
               <p>
