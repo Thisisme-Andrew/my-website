@@ -19,7 +19,7 @@ const Projects = () => {
           </a>
 
           <a
-            href="https://the-shoppies-nominations.herokuapp.com/"
+            href="https://the-shoppies-nominations.vercel.app/"
             className={styles.card}
             target="_blank"
           >
