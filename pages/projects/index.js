@@ -14,8 +14,8 @@ const Projects = () => {
             className={styles.card}
             target="_blank"
           >
-            <h2>Khebrah iOS App &rarr;</h2>
-            <p>A language learning app individually developed in the Apple App store.</p>
+            <h2>Mahjong Score Tracker (Android) &rarr;</h2>
+            <p>An app used to help user's calculate scores, track players, and directions in Mahjong</p>
           </a>
 
           <a
@@ -32,7 +32,7 @@ const Projects = () => {
             className={styles.card}
             target="_blank"
           >
-            <h2>Khebrah Android App &rarr;</h2>
+            <h2>Khebrah App (Android) &rarr;</h2>
             <p>A language learning app individually developed in the Google Play store.</p>
           </a>
 
