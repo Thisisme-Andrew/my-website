@@ -10,12 +10,12 @@ const Projects = () => {
 
         <div className={styles.grid}>
           <a 
-            href="https://apps.apple.com/mn/app/khebrah/id1559289752" 
+            href="https://play.google.com/store/apps/details?id=com.lingoexpodev.mahjongcalculator" 
             className={styles.card}
             target="_blank"
           >
-            <h2>Mahjong Score Tracker (Android) &rarr;</h2>
-            <p>An app used to help user's calculate scores, track players, and directions in Mahjong</p>
+            <h2>Mahjong Score Tracker &rarr;</h2>
+            <p>An Android app used to help user's calculate scores, track players, and directions in Mahjong</p>
           </a>
 
           <a
